@@ -64,6 +64,10 @@
     "ytsr": "^3.5.0",
     "zeev-api": "^2.0.0"
   },
+ "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dcode-denpa/bitch-boot.git"
