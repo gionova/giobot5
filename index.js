@@ -64,7 +64,7 @@ nocache('./message/group.js', module => console.log(color('[WATCH]', 'yellow'), 
 
 async function starts() {
     giie.autoReconnect = ReconnectMode.onConnectionLost
-    giie.version = [2, 2146, 9]
+    giie.version = [2, 2147, 1]
     giie.logger.level = 'warn'
     giie.browserDescription = ['Gio', 'Chrome', '3.0']
     await sleep(10000)
