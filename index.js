@@ -63,8 +63,8 @@ require('./message/group.js')
 nocache('./message/group.js', module => console.log(color('[WATCH]', 'yellow'), color(`'${module}'`, 'yellow'), 'File is updated!'))
 
 async function starts() {
-    //giie.autoReconnect = ReconnectMode.onConnectionLost
-    giie.version = [2, 2140, 14]
+    giie.autoReconnect = ReconnectMode.onConnectionLost
+    giie.version = [2, 2147, 14]
     giie.logger.level = 'warn'
     giie.browserDescription = ['Gio', 'Chrome', '3.0']
     await sleep(10000)
